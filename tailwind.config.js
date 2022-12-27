@@ -18,7 +18,7 @@ module.exports = {
         800: "#595959",
         900: "#535353",
       },
-      ember: "#ff9900",
+      amber: "#ff9900",
     },
     extend: {},
   },

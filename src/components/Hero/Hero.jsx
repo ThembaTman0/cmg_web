@@ -11,7 +11,7 @@ const Hero = () => {
         <button className=" bg-white hover:bg-gray-75 text-black font-bold py-2 px-4 rounded-full">
           Get Started
         </button>
-        <button className="bg-gray-75 text-black hover:bg-ember text-ember-800 font-bold py-2 px-4 rounded-full ml-4">
+        <button className="bg-gray-75 text-black hover:bg-amber text-ember-800 font-bold py-2 px-4 rounded-full ml-4">
           Request Price
         </button>
       </div>
