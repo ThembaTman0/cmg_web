@@ -1,4 +1,5 @@
 import React from "react";
+import { UilAngleDoubleDown } from "@iconscout/react-unicons";
 
 const Hero = () => {
   return (
@@ -7,7 +8,7 @@ const Hero = () => {
         Welcome to Creative Mi<span className="text-ember">nds Gra</span>phics
       </h1>
       <p className="text-lg mb-8">
-        Learn more about my services and request a price quote
+        Where your Imagination Powers your Creation
       </p>
       <div className="flex items-center justify-center">
         <button className=" bg-white hover:bg-gray-75 text-black font-bold py-2 px-4 rounded-full">
@@ -17,6 +18,17 @@ const Hero = () => {
           Request Price
         </button>
       </div>
+      <button
+        onClick={() => {
+          window.scrollTo({
+            top: window.innerHeight,
+            behavior: "smooth",
+          });
+        }}
+        className="bg-black hover:bg-ember text-white font-bold py-2 px-4 rounded-full fixed bottom-0 mb-8 mr-8"
+      >
+        <UilAngleDoubleDown />
+      </button>
     </div>
   );
 };

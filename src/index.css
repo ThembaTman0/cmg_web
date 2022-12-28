@@ -3,13 +3,12 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: "ExtraBold"; /*Can be any text*/
+  font-family: "ExtraBold";
   src: local("Gilroy-ExtraBold"),
     url("./Fonts/Gilroy-ExtraBold.otf") format("truetype");
 }
 
 @font-face {
-  font-family: "Light"; /*Can be any text*/
-  src: local("Gilroy-ExtraBold"),
-    url("./Fonts/Gilroy-Light.otf") format("truetype");
+  font-family: "Light";
+  src: local("Gilroy-Light"), url("./Fonts/Gilroy-Light.otf") format("truetype");
 }
